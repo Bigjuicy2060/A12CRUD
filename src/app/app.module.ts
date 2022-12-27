@@ -7,6 +7,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProductlistComponent } from './productlist/productlist.component';
 import { ProductdetailsComponent } from './productdetails/productdetails.component';
 import { ProductfromComponent } from './productfrom/productfrom.component';
+import { AgGridModule } from 'ag-grid-angular';
+import { ColDef } from 'ag-grid-community';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,9 @@ import { ProductfromComponent } from './productfrom/productfrom.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    AgGridModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
