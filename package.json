@@ -25,7 +25,10 @@
     "ag-grid-community": "^28.2.1",
     "bootstrap": "^5.2.2",
     "bootstrap-icons": "^1.10.3",
+    "ngx-sweetalert2": "^0.2.7",
     "rxjs": "~7.5.0",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.6.16",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },

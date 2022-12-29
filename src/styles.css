@@ -1,6 +1,7 @@
 @import 'ag-grid-community/styles/ag-grid.css';
 @import 'ag-grid-community/styles/ag-theme-alpine.css';
 
+
 /* You can add global styles to this file, and also import other style files */
 html, body {
     height: 100%;
@@ -8,4 +9,9 @@ html, body {
     padding: 5px;
     box-sizing: border-box;
     -webkit-overflow-scrolling: touch;
+ }
+ .header-cell{
+    background-color: #009879;
+    color: rgb(8, 2, 2);
+    text-align: left;
  }
